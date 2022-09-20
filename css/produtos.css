@@ -20,8 +20,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: gray 2px 2px 1px;
-    border-top: 10px solid red;
-    color: red;
+    border-top: 10px solid indianred;
+    color: indianred;
     font-family: "Roboto Light",sans-serif;
 }
 
@@ -44,7 +44,7 @@
     border: none;
     border-radius: .5rem;
     padding: 1rem;
-    background-color: red;
+    background-color: indianred;
     color: white;
 }
 

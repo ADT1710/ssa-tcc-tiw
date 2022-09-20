@@ -1,17 +1,18 @@
 .rodape{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    background-color: indianred;
     font-family: Roboto,sans-serif;
     justify-content: space-around;
     align-items: center;
     border-top: 10px solid darkred;
+    font-weight: bolder;
 }
 
 .rodape_menu--link{
     text-decoration: none;
     color: white;
-    font-weight: bolder;
+
 }
 
 .rodape_menu--titulo{
