@@ -1,0 +1,23 @@
+.conteudo{
+    font-family: "Roboto Light", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo_titulo{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.conteudo_texto{
+    text-indent: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+}
+
+.conteudo_divisor{
+    border-bottom: 2px solid black;
+    width: 70%;
+}

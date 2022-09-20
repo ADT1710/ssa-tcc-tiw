@@ -1,0 +1,47 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: red;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif;
+    position: fixed;
+    z-index: 3;
+    width: 98.5%;
+}
+
+.cabecalho_logo{
+    color: white;
+    font-size: 28px;
+    text-shadow: black .1rem .1rem .2rem ;
+}
+
+.cabecalho_menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_menu--link{
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho_menu--link:hover{
+    text-decoration: underline;
+}
+
+.cabecalho_busca{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho_input{
+    background-color: darkred;
+    border: none;
+    padding: .2rem;
+    margin-left: 1rem;
+}

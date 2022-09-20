@@ -1,0 +1,37 @@
+.contato_form{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato_form--label{
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+.contato_form--input{
+    width: 40%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: gray 2px 2px 2px;
+    resize: none;
+}
+
+.contato_form--botao{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.contato_form--botao:hover{
+    background-color: darkred;
+    cursor: pointer;
+}

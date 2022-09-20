@@ -1,0 +1,31 @@
+.rodape{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    font-family: Roboto,sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px solid darkred;
+}
+
+.rodape_menu--link{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.rodape_menu--titulo{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rodape_menu--item{
+    margin-bottom: .4rem;
+}
+
+.rodape_logoGit{
+    width: 5%;
+}

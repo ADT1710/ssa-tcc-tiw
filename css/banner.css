@@ -1,0 +1,20 @@
+.banner{
+    display: inline-block;
+    position: relative;
+}
+
+.banner_imagem{
+    width: 99vw;
+    height: calc(100vh);
+}
+
+.banner_texto{
+    position: absolute;
+    top: 20rem;
+    right: 32rem;
+    font-size: 2rem;
+    font-family: "Roboto Light", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
