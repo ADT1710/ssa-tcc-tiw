@@ -72,3 +72,19 @@
     background-position: center;
     outline: none;
 }
+
+#aumentar_fonte{
+    background-image: url("../img/zoom+.png");
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
+
+#diminuir_fonte{
+    background-image: url("../img/zoom-.png");
+    background-size: 1.7rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
