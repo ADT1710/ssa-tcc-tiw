@@ -25,13 +25,13 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 1rem 2rem;
-    background-color: indianred;
+    background-color: #008080;
     color: white;
     border-radius: 1rem;
     border: none;
 }
 
 .contato_form--botao:hover{
-    background-color: darkred;
+    background-color: #20B2AA;
     cursor: pointer;
 }
