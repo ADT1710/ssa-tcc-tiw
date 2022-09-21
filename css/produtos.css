@@ -20,8 +20,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: gray 2px 2px 1px;
-    border-top: 10px solid indianred;
-    color: indianred;
+    border-top: 10px solid #008080;
+    color: #008080;
     font-family: "Roboto Light",sans-serif;
 }
 
@@ -44,12 +44,12 @@
     border: none;
     border-radius: .5rem;
     padding: 1rem;
-    background-color: indianred;
+    background-color: #008080;
     color: white;
 }
 
 .produto_botao:hover{
-    background-color: darkred;
+    background-color: #20B2AA;
     cursor: pointer;
 }
 
