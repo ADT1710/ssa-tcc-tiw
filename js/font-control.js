@@ -20,6 +20,7 @@ let tfContatoLabel = 1;
 btnAumentaFonte.addEventListener("click", () => {
     aumentaFonte();
 })
+
 btnDiminuiFonte.addEventListener("click", () => {
     diminuiFonte();
 })
@@ -34,22 +35,29 @@ function aumentaFonte (){
     tfContatoLabel *= 1.1;
 
     bannerTitulo.style.fontSize = tfBannerTitulo + "rem";
+
     bannerTexto.style.fontSize = tfBannerTexto + "rem";
+
     conteudoTitulo.forEach((elemento)=>{
         elemento.style.fontSize = tfConteudoTitulo + "rem";
     });
+
     conteudoTexto.forEach((elemento)=>{
         elemento.style.fontSize = tfConteudoTexto + "rem";
     });
+
     produtoTitulo.forEach((elemento)=>{
         elemento.style.fontSize = tfProdutoTitulo + "px";
     });
+
     produtoPreco.forEach((elemento)=>{
         elemento.style.fontSize = tfProdutoPreco + "px";
     });
+
     contatoLabel.forEach((elemento)=>{
         elemento.style.fontSize = tfContatoLabel + "rem";
     });
+
 }
 
 function diminuiFonte (){
@@ -62,20 +70,27 @@ function diminuiFonte (){
     tfContatoLabel /= 1.1;
 
     bannerTitulo.style.fontSize = tfBannerTitulo + "rem";
+
     bannerTexto.style.fontSize = tfBannerTexto + "rem";
+
     conteudoTitulo.forEach((elemento)=>{
         elemento.style.fontSize = tfConteudoTitulo + "rem";
     });
+
     conteudoTexto.forEach((elemento)=>{
         elemento.style.fontSize = tfConteudoTexto + "rem";
     });
+
     produtoTitulo.forEach((elemento)=>{
         elemento.style.fontSize = tfProdutoTitulo + "px";
     });
+
     produtoPreco.forEach((elemento)=>{
         elemento.style.fontSize = tfProdutoPreco + "px";
     });
+
     contatoLabel.forEach((elemento)=>{
         elemento.style.fontSize = tfContatoLabel + "rem";
     });
+
 }
