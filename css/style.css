@@ -1,3 +1,10 @@
+:root{
+    --azul: #008080;
+    --azul-claro: #20B2AA;
+    --preto: black;
+    --branco: white;
+}
+
 body{
     background-color: white;
 }
