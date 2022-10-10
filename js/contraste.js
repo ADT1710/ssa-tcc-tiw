@@ -11,5 +11,16 @@ btnContraste.addEventListener('click', function () {
         document.documentElement.style.setProperty('--botaoPri', 'white');
         document.documentElement.style.setProperty('--botaoSec', 'gray');
         document.documentElement.style.setProperty('--botaoText', 'black');
+        contrasteOn = true;
+    }
+    else{
+        document.documentElement.style.setProperty('--primaria', '#008080');
+        document.documentElement.style.setProperty('--secundaria', '#20B2AA');
+        document.documentElement.style.setProperty('--claro', 'white');
+        document.documentElement.style.setProperty('--escuro', 'black');
+        document.documentElement.style.setProperty('--botaoPri', '#008080');
+        document.documentElement.style.setProperty('--botaoSec', '#20B2AA');
+        document.documentElement.style.setProperty('--botaoText', 'white');
+        contrasteOn = false;
     }
 })
