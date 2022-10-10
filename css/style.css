@@ -1,8 +1,8 @@
 :root{
-    --azul: #008080;
-    --azul-claro: #20B2AA;
-    --preto: black;
-    --branco: white;
+    --primaria: #008080;
+    --secundaria: #20B2AA;
+    --escuro: black;
+    --claro: white;
 }
 
 body{
