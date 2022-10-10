@@ -3,10 +3,14 @@
     --secundaria: #20B2AA;
     --escuro: black;
     --claro: white;
+    --botaoPri: #008080;
+    --botaoSec: #20B2AA;
+    --botaoText: white
 }
 
 body{
-    background-color: white;
+    background-color: var(--claro);
+    color: var(--escuro);
 }
 
 p{

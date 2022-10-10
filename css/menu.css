@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    background-color: #008080;
+    background-color: var(--primaria);
     justify-content: space-between;
     font-weight: bolder;
     font-family: Roboto, sans-serif;
@@ -48,7 +48,7 @@
 
 .cabecalho_botoes--botoes{
     height: 2rem;
-    background-color: #008080;
+    background-color: var(--primaria);
     border-radius: 2rem;
     color: white;
     border: 2px solid white;
@@ -56,7 +56,7 @@
 }
 
 .cabecalho_botoes--botoes:hover{
-    background-color: #20B2AA;
+    background-color: var(--secundaria);
 }
 
 .cabecalho_botoes--legenda{

@@ -1,11 +1,11 @@
 .rodape{
     display: flex;
     flex-direction: row;
-    background-color: #008080;
+    background-color: var(--primaria);
     font-family: Roboto,sans-serif;
     justify-content: space-around;
     align-items: center;
-    border-top: 10px solid #20B2AA;
+    border-top: 10px solid var(--secundaria);
     font-weight: bolder;
 }
 
